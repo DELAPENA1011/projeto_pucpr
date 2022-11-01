@@ -57,7 +57,7 @@ while True:
     print('RETIRANDO OS DADOS DO COPO...')
     time.sleep(0.66)
 
-    # Sorteando os Dados da list_dices[33]
+    # Sorteando os Dados da list_dices[39]
     for i in range(0,3):
         num_drawn = random.randint(0,12) # Escolhendo número aleatório 
         dice_drawn = list_dices[num_drawn] # Dado selecionado de acordo com valor gerado aleatoriamente 
@@ -73,15 +73,15 @@ while True:
         print(f'{i + 1}º dado retirado -> {color_dice}')
         time.sleep(0.35)
 
-        dices_drawn.append(dice_drawn) # Adicionando a lista de dados sorteados - dices_drawn[40]
+        dices_drawn.append(dice_drawn) # Adicionando a lista de dados sorteados - dices_drawn[47]
     print('\nARREMESSANDO OS DADOS NA MESA\n')
     time.sleep(0.66)
 
     # Sorteando as faces dos dados selecionados na lista 
-    for dice_drawn in dices_drawn: # Para cada dice_drawn[55] na dices_drawn[40] sera sorteado uma face
+    for dice_drawn in dices_drawn: # Para cada dice_drawn[63] na dices_drawn[47] sera sorteado uma face
         num_face_dice = random.randint(0, 5)
 
-        # Inserindo a pontuação de acordo com o num_face_dice[72] do dice_drawn[55]
+        # Inserindo a pontuação de acordo com o num_face_dice[82] do dice_drawn[63]
         if dice_drawn[num_face_dice] == 'C':
             print('- CÉREBRO - (Você comeu um cérebro)')
             time.sleep(0.35)
@@ -102,7 +102,7 @@ while True:
     continue_turn = str(input('QUER CONTINUAR JOGANDO OS DADOS? [S/N] ')).strip().upper()[0]
     
     # Passando condições para dar continuidade ao jogo
-    # Se não der continuidade, todos os parametros de pontuação e dices_drawn[40] seram resetados e o próximo jogador da list_player realizar sua jogada.
+    # Se não der continuidade, todos os parametros de pontuação e dices_drawn[47] seram resetados e o próximo jogador da list_player realizar sua jogada.
     if continue_turn == 'N':
         current_player += 1
         dices_drawn = []
