@@ -1,0 +1,16 @@
+Prótotipo de entrega trabalho avaliativo
+
+Curso -> Big Data e Inteligência Analítica
+Disciplina -> Raciocinio Computacional
+
+Descrição
+----------------------------
+
+Primeira etapa:
+	Entregar um prótotipo do jogo Zombi Dice com apenas a estrutura basica do jogo.
+	Ulizando:
+	 * Listas -> Guardar informações sobre quantidade e nome de jogadores e pontuação.
+	 * Condicões (if, elif e else) -> verificação dos parametros indicados
+	 * Laços de repetição (for, While) -> Loop que faz a estrutura basica do jogo funcionar corretamente
+	 * Validação de resposta do usário (try, except) -> validação de informações recebidas
+
